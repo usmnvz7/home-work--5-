@@ -3,11 +3,11 @@ let users = {};
 
 for (let i = 1; i <= 10; i++) {
   let name = prompt(`Введите имя пользователя ${i}`);
-  let age = prompt(`Введите возраст пользователя ${i}`);
+  let age = +prompt(`Введите возраст пользователя ${i}`);
 
   users[i] = {
     name: name,
-    age: 0 (age),
+    age: (age),
   };
 }
 
