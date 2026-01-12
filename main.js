@@ -7,7 +7,7 @@ for (let i = 1; i <= 10; i++) {
 
   users[i] = {
     name: name,
-    age: 0 
+    age: 0 (age),
   };
 }
 
